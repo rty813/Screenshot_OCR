@@ -1,0 +1,10 @@
+ClearCase CopyAreaDB|4
+vobs\CE-Workstation\CE-CustomControlLib\CE-CustomControlLib\CaptureScreenSln\CaptureScreenDemo
+2
+6
+18:CaptureScreenDemo.csproj|1|12a78908544|1210|663ac7b4|cdd237d0a8d211df855900188b8325c9|0
+b:App.xaml.cs|1|12a64192ee5|13f|7ed96782|cc1237cba8d211df855300188b8325c9|0
+f:Window1.xaml.cs|1|12a83338209|628|3f12cad4|3fad1bafaa7211df97af00188b8325c9|0
+8:App.xaml|1|12a641927c1|12a|395c624b|cb723814a8d211df855200188b8325c9|0
+a:Properties|2|0|0|0|cc1237caa8d211df855500188b8325c9|0
+c:Window1.xaml|1|12a6436aad4|13d|93ad6456|d33237fba8d211df857800188b8325c9|0

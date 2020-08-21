@@ -1,0 +1,24 @@
+﻿<Window x:Class="CaptureScreenDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        ResizeMode="NoResize"
+        Title="SettingWindow" Height="194.547" Width="270.434">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label VerticalAlignment="Center" Margin="20, 0, 0, 0">Secret ID:</Label>
+        <TextBox Name="tbID" Grid.Column="1" Margin="0, 0, 20, 0" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+        <Label Grid.Row="1" VerticalAlignment="Center" Margin="20, 0, 0, 0">Secret Key:</Label>
+        <TextBox Name="tbKey" Grid.Column="1" Grid.Row="1" Margin="0, 0, 20, 0" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+        <Button Grid.Row="2" Grid.ColumnSpan="2" Content="确定" Name="btnOk" Click="btnOk_Click"  Width="64" Height="32" />
+    </Grid>
+</Window>
